@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+  padding-bottom: 2rem;
+  color: #5a5a5a;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Project Thumbail */
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+/* React Logo Spin Animation */
+.react-logo {
+  animation: App-logo-spin infinite 10s linear;
+  height: 300px;
+  pointer-events: none;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Scroll Down Animation */
+.scroll-btn {
+  animation: mover infinite 2.35s linear;
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform:translateY(0.5rem);
+  }
+}
+
+/* Back to Top Button */
+#btn-back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+}
+
+
+
