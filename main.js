@@ -21,3 +21,12 @@ function backToTop() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+// Typing Animation
+document.addEventListener("DOMContentLoaded", function () {
+    new TypeIt(".typing-animation", {
+        strings: ["DevSonata"],
+        speed: 150,
+        loop: true,
+    }).go();
+});
