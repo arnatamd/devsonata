@@ -2,8 +2,10 @@
 
 body {
   padding-bottom: 2rem;
+  max-width: 100%;
   color: #5a5a5a;
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
 
 /* Project Thumbail */
