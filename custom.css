@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  padding-bottom: 2rem;
   max-width: 100%;
   color: #5a5a5a;
   font-family: 'Poppins', sans-serif;
@@ -16,6 +19,26 @@ body {
   -moz-user-select: none;
   user-select: none;
 }
+
+/* Icon Color */
+.html-icon {
+  color: #f16529;
+}
+.css-icon {
+  color: #2965f1;
+}
+.js-icon{
+  color: #f0db4f;
+}
+.react-icon{
+  color: #61dbfb;
+}
+.bootstrap-icon{
+  color: #602c50;
+}
+.vue-icon{
+  color: #42b883;
+} 
 
 /* React Logo Spin Animation */
 .react-logo {
@@ -52,6 +75,7 @@ body {
   right: 25px;
   display: none;
 }
+
 
 
 
